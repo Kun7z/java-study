@@ -1,0 +1,9 @@
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        int numero = 19;
+        String resposta = (numero <= 17) ? "é menor de idade" : "É maior de idade";
+        System.out.println(resposta);
+    }
+}
